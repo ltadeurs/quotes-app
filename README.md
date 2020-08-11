@@ -3,6 +3,10 @@
 ## Project setup
 ```
 npm install (in the root folder).
+npm install -g @vue/cli (in the root folder).
+
+npm install -g @vue/cli-service-global (in the src folder).
+npm install eslint (in the src folder).
 ```
 
 ### Compile and run app
@@ -10,7 +14,7 @@ npm install (in the root folder).
 vue serve (in the src folder).
 ```
 
-### navigate to App
+### navigate to app
 ```
 go to  http://localhost:8080/ on your browser.
 ```
