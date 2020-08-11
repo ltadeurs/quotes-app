@@ -107,6 +107,7 @@ button:hover {
 .grow:hover .quote {
 	transform: scale(1.2);
 	letter-spacing: 1px;
+	margin: 5vh 0px;
 }
 
 .grow:hover .author {
@@ -174,27 +175,6 @@ html {
 	box-shadow: 850px 845px #FFF , 1571px 161px #FFF , 1882px 265px #FFF , 1827px 893px #FFF , 472px 1869px #FFF , 241px 1295px #FFF , 693px 1395px #FFF , 1280px 103px #FFF , 808px 477px #FFF , 1082px 1849px #FFF , 1541px 1091px #FFF , 1568px 1929px #FFF , 169px 409px #FFF , 762px 418px #FFF , 1164px 109px #FFF , 79px 742px #FFF , 1507px 1094px #FFF , 1818px 166px #FFF , 1794px 144px #FFF , 1410px 149px #FFF , 194px 131px #FFF , 1728px 1316px #FFF , 635px 1759px #FFF , 1425px 1029px #FFF , 1713px 428px #FFF , 1141px 1851px #FFF , 230px 574px #FFF , 1120px 1383px #FFF , 1642px 171px #FFF , 535px 1243px #FFF , 208px 1077px #FFF , 87px 1681px #FFF , 1512px 931px #FFF , 224px 696px #FFF , 1391px 1002px #FFF , 1020px 776px #FFF , 746px 405px #FFF , 282px 747px #FFF , 981px 366px #FFF , 1457px 1138px #FFF , 451px 1776px #FFF , 1853px 2px #FFF , 238px 783px #FFF , 1384px 571px #FFF , 521px 1605px #FFF , 985px 1694px #FFF , 326px 524px #FFF , 1879px 1561px #FFF , 295px 1586px #FFF , 551px 1972px #FFF , 829px 1696px #FFF , 511px 1784px #FFF , 1050px 285px #FFF , 1446px 103px #FFF , 1722px 1745px #FFF , 472px 1590px #FFF , 1851px 313px #FFF , 1848px 1588px #FFF , 854px 655px #FFF , 1729px 819px #FFF , 923px 914px #FFF , 1286px 1162px #FFF , 1911px 1660px #FFF , 103px 862px #FFF , 359px 743px #FFF , 69px 866px #FFF , 930px 834px #FFF , 1899px 62px #FFF , 842px 543px #FFF , 1709px 1808px #FFF , 659px 997px #FFF , 1769px 1927px #FFF , 1019px 1887px #FFF , 439px 381px #FFF , 1518px 765px #FFF , 1483px 1537px #FFF , 1037px 549px #FFF , 316px 1169px #FFF , 511px 740px #FFF , 854px 1382px #FFF , 165px 1116px #FFF , 1818px 1559px #FFF , 63px 1502px #FFF , 1332px 484px #FFF , 1392px 1569px #FFF , 167px 1847px #FFF , 828px 1446px #FFF , 797px 1617px #FFF , 723px 1628px #FFF , 1796px 651px #FFF , 602px 977px #FFF , 730px 1932px #FFF , 1180px 79px #FFF , 537px 1324px #FFF , 1066px 421px #FFF , 351px 1091px #FFF , 754px 1004px #FFF , 672px 55px #FFF , 711px 457px #FFF , 1779px 708px #FFF;
 }
 
-#title {
-	position: absolute;
-	top: 50%;
-	left: 0;
-	right: 0;
-	color: #FFF;
-	text-align: center;
-	font-family: 'lato',sans-serif;
-	font-weight: 300;
-	font-size: 50px;
-	letter-spacing: 10px;
-	margin-top: -60px;
-	padding-left: 10px;
-}
-
-#title span {
-	background: -webkit-linear-gradient(white, #38495a);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-}
-
 @keyframes animStar {
 	from {
 		transform: translateY(0px);
@@ -202,5 +182,18 @@ html {
 
 	to {
 		transform: translateY(-2000px);
+	}
+}
+
+
+@media only screen and (max-width: 768px) {
+	button {
+		width: 80vw;
+		font-size: 22px!important;
+	}
+
+	.block .quote {
+		line-height: 4vh!important;
+		font-size: 4.5vw!important;
 	}
 }
